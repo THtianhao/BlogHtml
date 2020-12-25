@@ -65,12 +65,12 @@
             </div>
             <h2 class="ui center aligned header"> 关于标题</h2>
             <br>
-            <div id="content" class="m-padded-lr m-padded-td-large">
+            <div id="content" class="m-padded-lr-response m-padded-td-large">
                 感谢up主的教程，我的博客地址：https://onestar.newstar.net.cn/
                 ，增加了友链、留言和照片墙的功能，持久层用mybatis实现的，前端进行的较大的改动，用jpa作为持久层也开发了一套，我将代码整理后会把前端单独抽取出来开源，jpa作为持久层的也开源，mybatis作为持久层的也会开源，欢迎持续关注我的博客，会长期维护本站
             </div>
             <!--            标签-->
-            <div class="m-padded-lr m-padded-td-large">
+            <div class="m-padded-lr-response m-padded-td-large">
                 <div class="ui basic teal left pointing label">方法论</div>
             </div>
             <!--            赞赏-->
@@ -95,10 +95,118 @@
             </div>
         </div>
         <div class="ui attached positive message">
-            博客信息
+            <div class="ui middle aligned grid">
+                <div class="eleven wide column">
+                    <ui class="list">
+                        <li>作者</li>
+                        <li>发表时间</li>
+                        <li>版权声明</li>
+                    </ui>
+                </div>
+                <div class="five wide column">
+                    <img src="static/image/wechat.jpg" class="ui rounded  bordered image" style="width: 110px"></image>
+                </div>
+            </div>
         </div>
+        <!--        留言区-->
         <div class="ui bottom attached segment">
-            留言区
+            <div class="ui teal segment">
+                <div class="ui threaded comments">
+                    <h3 class="ui dividing header">Comments</h3>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://picsum.photos/id/1/800/400?image=#1004">
+                        </a>
+                        <div class="content">
+                            <a class="author">Matt</a>
+                            <div class="metadata">
+                                <span class="date">Today at 5:42PM</span>
+                            </div>
+                            <div class="text">
+                                How artistic!
+                            </div>
+                            <div class="actions">
+                                <a class="reply">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://picsum.photos/id/1/800/400?image=#1003">
+                        </a>
+                        <div class="content">
+                            <a class="author">Elliot Fu</a>
+                            <div class="metadata">
+                                <span class="date">Yesterday at 12:30AM</span>
+                            </div>
+                            <div class="text">
+                                <p>This has been very useful for my research. Thanks as well!</p>
+                            </div>
+                            <div class="actions">
+                                <a class="reply">回复</a>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <div class="comment">
+                                <a class="avatar">
+                                    <img src="https://picsum.photos/id/1/800/400?image=#1002">
+                                </a>
+                                <div class="content">
+                                    <a class="author">Jenny Hess</a>
+                                    <div class="metadata">
+                                        <span class="date">Just now</span>
+                                    </div>
+                                    <div class="text">
+                                        Elliot you are always so right :)
+                                    </div>
+                                    <div class="actions">
+                                        <a class="reply">回复</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://picsum.photos/id/1/800/400?image=#1001">
+                        </a>
+                        <div class="content">
+                            <a class="author">Joe Henderson</a>
+                            <div class="metadata">
+                                <span class="date">5 days ago</span>
+                            </div>
+                            <div class="text">
+                                Dude, this is awesome. Thanks so much
+                            </div>
+                            <div class="actions">
+                                <a class="reply">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui form">
+                <div class="field">
+                    <textarea name="content" placeholder="请输入评论信息。。。。"> </textarea>
+                </div>
+                <div class="fields">
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="nickname" placeholder="姓名">
+                        </div>
+                    </div>
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <div class="ui left icon input">
+                            <i class="mail icon"></i>
+                            <input type="text" name="email" placeholder="邮箱">
+                        </div>
+                    </div>
+                    <div class="field m-mobile-wide m-margin-bottom-small">
+                        <button class="ui teal button m-mobile-wide"><i class="edit icon"></i>发布</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
