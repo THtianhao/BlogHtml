@@ -7,6 +7,7 @@
 
     <title>博客详情页</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="static/css/typo.css">
     <link rel="stylesheet" href="static/css/me.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
     <div class="ui container">
         <div class="ui inverted stackable menu">
             <h2 class="ui teal header item"> Blog</h2>
-            <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="home icon "></i>首页</a>
             <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i> 分类</a>
             <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
             <a href="#" class="m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
@@ -65,9 +66,105 @@
             </div>
             <h2 class="ui center aligned header"> 关于标题</h2>
             <br>
-            <div id="content" class="m-padded-lr-response m-padded-td-large">
-                感谢up主的教程，我的博客地址：https://onestar.newstar.net.cn/
-                ，增加了友链、留言和照片墙的功能，持久层用mybatis实现的，前端进行的较大的改动，用jpa作为持久层也开发了一套，我将代码整理后会把前端单独抽取出来开源，jpa作为持久层的也开源，mybatis作为持久层的也会开源，欢迎持续关注我的博客，会长期维护本站
+            <div id="content" class="typo typo-selection m-padded-lr-response m-padded-td-large">
+                <h2 id="section1">一、关于 <i class="serif">Typo.css</i></h2>
+
+                <p><i class="serif">Typo.css</i> 的目的是，在一致化浏览器排版效果的同时，构建最适合中文阅读的网页排版。</p>
+                <h4>现状和如何去做：</h4>
+
+                <p class="typo-first">排版是一个麻烦的问题 <sup><a href="#appendix1"># 附录一</a></sup>，需要精心设计，而这个设计却是常被视觉设计师所忽略的。前端工程师更常看到这样的问题，但不便变更。因为在多个 OS 中的不同浏览器渲染不同，改动需要多的时间做回归测试，所以改变变得更困难。而像我们一般使用的
+                    Yahoo、Eric Meyer 和 Alice base.css 中采用的 Reset 都没有很好地考虑中文排版。<i class="serif">Typo.css</i> 要做的就是解决中文排版的问题。</p>
+
+                <p><strong><i class="serif">Typo.css</i> 测试于如下平台：</strong></p>
+                <table class="ui table" summary="Typo.css 的测试平台列表">
+                    <thead>
+                    <tr>
+                        <th>OS/浏览器</th>
+                        <th>Firefox</th>
+                        <th>Chrome</th>
+                        <th>Safari</th>
+                        <th>Opera</th>
+                        <th>IE9</th>
+                        <th>IE8</th>
+                        <th>IE7</th>
+                        <th>IE6</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>OS X</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Win 7</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Win XP</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>-</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                    </tr>
+                    <tr>
+                        <td>Ubuntu</td>
+                        <td>✔</td>
+                        <td>✔</td>
+                        <td>-</td>
+                        <td>✔</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <h4>中文排版的重点和难点</h4>
+
+                <p>在中文排版中，HTML4 的很多标准在语义在都有照顾到。但从视觉效果上，却很难利用单独的 CSS 来实现，像<abbr title="在文字下多加一个点">着重号</abbr>（例：这里<em class="typo-em">强调一下</em>）。在 HTML4 中，专名号标签（<code>&lt;u&gt;</code>）已经被放弃，而
+                    HTML5 被<a href="//html5doctor.com/u-element/">重新提起</a>。<i class="serif">Typo.css</i> 也根据实际情况提供相应的方案。我们重要要注意的两点是：</p>
+                <ol>
+                    <li>语义：语义对应的用法和样式是否与中文排版一致</li>
+                    <li>表现：在各浏览器中的字体、大小和缩放是否如排版预期</li>
+                </ol>
+                <p>对于这些，<i class="serif">Typo.css</i> 排版项目的中文偏重注意点，都添加在附录中，详见：</p>
+                <blockquote>
+                    <b>附录一</b>：<a href="#appendix1"><i class="serif">Typo.css</i> 排版偏重点</a>
+                </blockquote>
+
+                <p>目前已有像百姓网等全面使用 <i class="serif">Typo.css</i> 的项目，测试平台的覆盖，特别是在<abbr title="手机、平板电脑等移动平台">移动端</abbr>上还没有覆盖完主流平台，希望有能力的同学能加入测试行列，或者加入到 <i class="serif">Typo.css</i>
+                    的开发。加入方法：<a href="https://github.com/sofish/Typo.css">参与 <i class="serif">Typo.css</i> 开发</a>。如有批评、建议和意见，也随时欢迎给在 Github 直接提 <a
+                            href="https://github.com/sofish/Typo.css/issues">issues</a>，或给<abbr title="Sofish Lin, author of Typo.css"
+                                                                                                role="author">我</abbr>发<a
+                            href="mailto:sofish@icloud.com">邮件</a>。</p>
+
+
+                <h2 id="section2">二、排版实例：</h2>
+
+                <p>提供2个排版实例，第一个中文实例来自于来自于<cite class="typo-unique">张燕婴</cite>的《论语》，由于古文排版涉及到的元素比较多，所以采用《论语》中《学而》的第一篇作为排版实例介绍；第2个来自到经典的
+                    Lorem Ipsum，并加入了一些代码和列表等比较具有代表性的排版元素。</p>
+
+                <h3 id="section2-1">例1：论语学而篇第一</h3>
+
             </div>
             <!--            标签-->
             <div class="m-padded-lr-response m-padded-td-large">
