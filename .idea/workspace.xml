@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a534f253-73e8-48cd-a137-d3eadeca61d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/lib/qrcode/qrcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/waypoint/jquery.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/lib/waypoint/jquery.waypoints.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
     </list>
@@ -33,18 +34,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/qrcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/waypoint" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/lib/waypoint" />
       <recent name="$PROJECT_DIR$/static/lib/qrcode" />
       <recent name="$PROJECT_DIR$/static/lib/tocbot" />
       <recent name="$PROJECT_DIR$/static/lib/prism" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/static/lib/editermd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/image" />
@@ -59,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608628954847</updated>
       <workItem from="1608628956482" duration="1818000" />
-      <workItem from="1608706339944" duration="50187000" />
+      <workItem from="1608706339944" duration="51490000" />
     </task>
     <task id="LOCAL-00001" summary="处理html网页程序">
       <created>1608865107437</created>
@@ -159,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609135820786</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="二维码生成">
+      <created>1609136507158</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609136507158</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
     <MESSAGE value="动画css" />
     <MESSAGE value="代码高亮插件" />
     <MESSAGE value="导航插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="导航插件" />
+    <MESSAGE value="二维码生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="二维码生成" />
   </component>
 </project>
