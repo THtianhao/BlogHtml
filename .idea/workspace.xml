@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a534f253-73e8-48cd-a137-d3eadeca61d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/input.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608628954847</updated>
       <workItem from="1608628956482" duration="1818000" />
-      <workItem from="1608706339944" duration="38579000" />
+      <workItem from="1608706339944" duration="41832000" />
     </task>
     <task id="LOCAL-00001" summary="处理html网页程序">
       <created>1608865107437</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608895669684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="后台表单开发一">
+      <created>1608896239391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608896239391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +138,7 @@
     <MESSAGE value="tag页面" />
     <MESSAGE value="关于我" />
     <MESSAGE value="开发后台管理列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="开发后台管理列表" />
+    <MESSAGE value="后台表单开发一" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台表单开发一" />
   </component>
 </project>
