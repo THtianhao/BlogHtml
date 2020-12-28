@@ -13,6 +13,10 @@ body{
     padding: 0.3em !important;
 }
 
+.m-padded {
+    padding: 1em !important;
+}
+
 .m-padded-td-min {
     /*semetic中所有的级别都是最高，所以定义css的时候要设置成importent的级别*/
     padding-top: 0.2em !important;
@@ -175,6 +179,16 @@ body{
 .m-shadow-small {
     -webkit-box-shadow:  0 4px 8px rgba(0,0,0,2) !important;
     box-shadow: 0 4px 8px rgba(0,0,0,2) !important;
+}
+
+/*`````postion``````*/
+.m-fixed {
+    position: fixed !important;
+    z-index: 10 !important;
+}
+.m-right-bottom {
+    bottom: 0 !important;
+    right: 0 !important;
 }
 
 @media screen and (max-width: 768px){
