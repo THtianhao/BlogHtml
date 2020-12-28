@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a534f253-73e8-48cd-a137-d3eadeca61d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/lib/waypoint/jquery.waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/lib/waypoint/jquery.waypoints.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
     </list>
@@ -60,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608628954847</updated>
       <workItem from="1608628956482" duration="1818000" />
-      <workItem from="1608706339944" duration="51490000" />
+      <workItem from="1608706339944" duration="51859000" />
     </task>
     <task id="LOCAL-00001" summary="处理html网页程序">
       <created>1608865107437</created>
@@ -167,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609136507158</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="平滑滚动插件集成">
+      <created>1609137839211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609137839211</updated>
+    </task>
+    <task id="LOCAL-00017" summary="滚动检测插件引入">
+      <created>1609137855201</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609137855201</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +212,8 @@
     <MESSAGE value="代码高亮插件" />
     <MESSAGE value="导航插件" />
     <MESSAGE value="二维码生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="二维码生成" />
+    <MESSAGE value="平滑滚动插件集成" />
+    <MESSAGE value="滚动检测插件引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="滚动检测插件引入" />
   </component>
 </project>
