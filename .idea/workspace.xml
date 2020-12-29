@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a534f253-73e8-48cd-a137-d3eadeca61d1" name="Default Changelist" comment="" />
+    <list default="true" id="a534f253-73e8-48cd-a137-d3eadeca61d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,20 +33,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib/waypoint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/admin" />
       <recent name="$PROJECT_DIR$/static/lib/waypoint" />
       <recent name="$PROJECT_DIR$/static/lib/qrcode" />
       <recent name="$PROJECT_DIR$/static/lib/tocbot" />
       <recent name="$PROJECT_DIR$/static/lib/prism" />
-      <recent name="$PROJECT_DIR$/static/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/image" />
     </key>
   </component>
@@ -56,6 +61,8 @@
       <updated>1608628954847</updated>
       <workItem from="1608628956482" duration="1818000" />
       <workItem from="1608706339944" duration="51893000" />
+      <workItem from="1609138305044" duration="268000" />
+      <workItem from="1609231382876" duration="1105000" />
     </task>
     <task id="LOCAL-00001" summary="处理html网页程序">
       <created>1608865107437</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609138223089</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="修改目录层级">
+      <created>1609138400604</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609138400604</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +213,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="处理html网页程序" />
@@ -218,6 +233,7 @@
     <MESSAGE value="二维码生成" />
     <MESSAGE value="平滑滚动插件集成" />
     <MESSAGE value="滚动检测插件引入" />
-    <option name="LAST_COMMIT_MESSAGE" value="滚动检测插件引入" />
+    <MESSAGE value="修改目录层级" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改目录层级" />
   </component>
 </project>
